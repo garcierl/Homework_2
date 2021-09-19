@@ -1,0 +1,82 @@
+.gallery {
+  align-items: center;
+  background-color: lightgreen;
+
+  .gallery-title {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-top: 50px;
+    padding-left: 450px;
+    .gallery-border {
+      border-bottom: black solid 2px;
+      position: absolute;
+      width: 229px;
+      white-space: nowrap;
+      margin-bottom: 25px;
+    }
+  }
+
+  .pictures {
+    margin-left: 450px;
+    margin-top: 35px;
+    .row-1 {
+      width: 986px;
+      justify-content: space-between;
+      padding-bottom: 25px;
+      margin-right: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      .greece {
+        width: 489px;
+        height: 187px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../images/greece.jpg);
+      }
+
+      .mountain {
+        width: 187px;
+        height: 187px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../images/mountain.jpg);
+      }
+
+      .plain {
+        width: 265px;
+        height: 187px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../images/plains.jpeg);
+      }
+    }
+    .row-2 {
+      width: 986px;
+      justify-content: space-between;
+      padding-bottom: 50px;
+      margin-right: 25px;
+      display: flex;
+      flex-wrap: wrap;
+      .ice-lake {
+        width: 603px;
+        height: 306px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../images/ice-lake.jpg);
+      }
+
+      .yellowstone {
+        width: 355px;
+        height: 306px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../images/yellowstone.jpg);
+      }
+    }
+  }
+}

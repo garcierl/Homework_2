@@ -1,0 +1,40 @@
+.home {
+  background-image: url(../images/plains.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 65%;
+  height: 300px;
+}
+
+.home--header {
+  text-align: center;
+  font-size: 90px;
+  margin: 0 auto;
+  padding-top: 155px;
+  color: rgb(101, 170, 110);
+}
+
+.home-2 {
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding-top: 75px;
+  height: fit-content;
+  width: 35rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+
+.greece--img {
+  padding-top: 50px;
+  max-height: 50rem;
+  max-width: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right;
+}
